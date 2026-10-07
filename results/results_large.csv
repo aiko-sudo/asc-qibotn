@@ -1,0 +1,3 @@
+workload,qubits,engine,runtime,status,note
+QFT,26,sv,,failed,execution timeout > 25 min (状态向量 2^26 复数 ≈1GB，预计 ~10min 但实际超时未完成)
+QFT,26,tn,3.64,success,MPS chi=32

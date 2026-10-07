@@ -1,0 +1,16 @@
+# qibo 0.2.23 | numpy 2.5.3 | python 3.12.15 | OMP=default
+workload,qubits,engine,depth,reps,threads,runtime,t_min,t_max,fidelity,ram_peak_mb,status,note
+QFT,12,tn,10,3,default,0.0664,0.0628,0.0682,,268.5,success,MPS_enabled=False
+# qibo 0.2.23 | numpy 2.5.3 | python 3.12.15 | OMP=default | mps=off,,,,
+workload,qubits,command,runtime,status
+QFT,12,python run_asc.py --workloads QFT --qubits 12 --engines tn --depth 10 --reps 3 --mps off,0.0664,success
+QFT,16,tn,10,3,default,0.1344,0.1343,0.1348,,272.1,success,MPS_enabled=False
+QFT,16,python run_asc.py --workloads QFT --qubits 16 --engines tn --depth 10 --reps 3 --mps off,0.1344,success
+QFT,20,tn,10,3,default,0.2536,0.2477,0.2557,,287.1,success,MPS_enabled=False
+QFT,20,python run_asc.py --workloads QFT --qubits 20 --engines tn --depth 10 --reps 3 --mps off,0.2536,success
+Supremacy,12,tn,10,3,default,0.0888,0.0879,0.0914,,275.6,success,MPS_enabled=False
+Supremacy,12,python run_asc.py --workloads Supremacy --qubits 12 --engines tn --depth 10 --reps 3 --mps off,0.0888,success
+Supremacy,16,tn,10,3,default,0.2868,0.2795,0.2938,,285.3,success,MPS_enabled=False
+Supremacy,16,python run_asc.py --workloads Supremacy --qubits 16 --engines tn --depth 10 --reps 3 --mps off,0.2868,success
+Supremacy,20,tn,10,3,default,1.0459,1.0377,1.0643,,351.0,success,MPS_enabled=False
+Supremacy,20,python run_asc.py --workloads Supremacy --qubits 20 --engines tn --depth 10 --reps 3 --mps off,1.0459,success

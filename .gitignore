@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv*/
+*.egg-info/
+.ipynb_checkpoints/
+
+# 环境
+.conda-asc/
+miniconda/
+
+# 临时/探测脚本
+smoke*.py
+fid_check.py
+chi_fid.py
+fsup16.py
+thread_cmp.py
+opt_reuse.py
+large.py
+
+# 系统
+Thumbs.db
+.DS_Store

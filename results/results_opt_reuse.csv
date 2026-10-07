@@ -1,0 +1,7 @@
+optimization,workload,qubits,reuse,runtime_s_median,runtime_min,runtime_max,note
+reuse_backend,QFT,8,no,0.0427,0.0306,0.0446,每次 MetaBackend.load + execute
+reuse_backend,QFT,12,no,0.0989,0.0791,0.1056,每次 MetaBackend.load + execute
+reuse_backend,QFT,16,no,0.2347,0.2117,0.317,每次 MetaBackend.load + execute
+reuse_backend,QFT,8,yes,0.0275,0.0212,0.0404,同一后端实例跑多个规模
+reuse_backend,QFT,12,yes,0.1319,0.0982,0.1402,同一后端实例跑多个规模
+reuse_backend,QFT,16,yes,0.2342,0.2049,0.3204,同一后端实例跑多个规模

@@ -1,0 +1,7 @@
+workload,qubits,engine,threads,runtime_med,runtime_min,runtime_max,note
+QFT,16,tn,1,0.2614,0.2085,0.5357,OMP=1
+QFT,20,tn,1,0.5804,0.5691,0.5825,OMP=1
+QFT,16,tn,24,0.1914,0.1832,0.587,OMP=24
+QFT,20,tn,24,0.384,0.3822,0.4448,OMP=24
+QFT,16,tn,default,0.3216,0.3177,0.8509,env unset
+QFT,20,tn,default,0.6196,0.6118,0.6376,env unset
